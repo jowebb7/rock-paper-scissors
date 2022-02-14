@@ -18,36 +18,42 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70vh;
-  height: 20vh;
-  padding: 1rem;
+  
 }
-.scoreContainer * {
-  max-width: 100%;
-  width: 100%;
-  height: 100%;
-  max-height: 100%;
-  border: 2px solid black;
-  border-radius: 4px;
-}
+
 .score {
   display: flex;
-  height: auto;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 4px;
+  
 }
+
 .start {
   background: greenyellow;
-  height: auto;
-  max-width: 100%;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 4px;
+
 }
 .playerScore {
   background-color: black;
+  text-align: center;
+  height: 100%;
+  width: 100%;
 }
 .cpuScore {
   background-color: blue;
+  text-align: center;
+  height: 100%;
+  width: 100%;
 }
 .reset {
   background-color: yellow;
-  height: auto;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 4px;
 }
 .rpsContainer {
   display: flex;
@@ -56,16 +62,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70vh;
-  height: 20vh;
 }
-
+.size{
+  height: 20vh;
+  width: 20vh;
+  margin: 1rem;
+}
 .rpsButton {
-  padding: 1rem;
+height: 20.3vh;
+width: 20.3vh;
 }
 .rockPaperScissors {
-  max-width: 100%;
-  max-height: 100%;
   border: 2px solid black;
   border-radius: 4px;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.active {
+  transform: scale(1.2);
 }
