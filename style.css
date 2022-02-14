@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-body{
+body {
   background-color: grey;
 }
 .name {
@@ -31,7 +31,6 @@ body{
   border: 2px solid black;
   border-radius: 4px;
   font-size: 2vh;
-  
 }
 
 .start {
@@ -41,7 +40,6 @@ body{
   border: 2px solid black;
   border-radius: 4px;
   font-size: 2vh;
-
 }
 .playerScore {
   background-color: black;
@@ -71,28 +69,27 @@ body{
   justify-content: center;
   align-items: center;
 }
-.size{
+.size {
   height: 20vh;
   width: 20vh;
   margin: 1rem;
 }
 .rpsButton {
-height: 20.3vh;
-width: 20.3vh;
+  height: 20.3vh;
+  width: 20.3vh;
 }
 .rockPaperScissors {
   border: 2px solid black;
   border-radius: 4px;
   max-width: 100%;
   max-height: 100%;
-
 }
 
 .active {
   transform: scale(1.2);
 }
 
-.infoBox{
+.infoBox {
   display: flex;
   margin-right: 15%;
   margin-left: 15%;
@@ -105,11 +102,11 @@ width: 20.3vh;
   align-items: center;
 }
 
-.gameInfo{
+.gameInfo {
   font-size: 2vh;
   text-align: center;
 }
 
-.highlight{
+.highlight {
   background-color: skyblue;
 }
