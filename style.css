@@ -8,11 +8,13 @@ body{
 .name {
   margin-top: 20vh;
   text-align: center;
-  font-size: 30px;
+  font-size: 5vh;
 }
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .scoreContainer {
   display: flex;
@@ -28,7 +30,7 @@ body{
   justify-content: center;
   border: 2px solid black;
   border-radius: 4px;
-  font-size: 30px;
+  font-size: 2vh;
   
 }
 
@@ -38,7 +40,7 @@ body{
   text-align: center;
   border: 2px solid black;
   border-radius: 4px;
-  font-size: 30px;
+  font-size: 2vh;
 
 }
 .playerScore {
@@ -58,7 +60,7 @@ body{
   text-align: center;
   border: 2px solid black;
   border-radius: 4px;
-  font-size: 30px;
+  font-size: 2vh;
   vertical-align: middle;
 }
 .rpsContainer {
@@ -91,19 +93,21 @@ width: 20.3vh;
 }
 
 .infoBox{
-  margin-right: auto;
-  margin-left: auto;
+  display: flex;
+  margin-right: 15%;
+  margin-left: 15%;
   margin-top: 3vh;
-  width: 74vw;
+  width: 70vw;
   height: 20vh;
   border: 2px solid black;
   border-radius: 4px;
+  justify-content: center;
+  align-items: center;
 }
 
 .gameInfo{
-  font-size: 30px;
+  font-size: 2vh;
   text-align: center;
-  padding: 7vh;
 }
 
 .highlight{
