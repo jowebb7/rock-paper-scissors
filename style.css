@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.name {
+  margin-top: 20vh;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.scoreContainer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vh;
+  height: 20vh;
+  padding: 1rem;
+}
+.scoreContainer * {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.score {
+  display: flex;
+  height: auto;
+}
+.start {
+  background: greenyellow;
+  height: auto;
+  max-width: 100%;
+}
+.playerScore {
+  background-color: black;
+}
+.cpuScore {
+  background-color: blue;
+}
+.reset {
+  background-color: yellow;
+  height: auto;
+}
+.rpsContainer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vh;
+  height: 20vh;
+}
+
+.rpsButton {
+  padding: 1rem;
+}
+.rockPaperScissors {
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid black;
+  border-radius: 4px;
+}
